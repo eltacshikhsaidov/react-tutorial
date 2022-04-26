@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Navbar {
+  background-color: rgb(230, 230, 230);
+  padding: 5px;
+}
+
+.Navbar > ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.Navbar > ul > li {
+  background-color: gainsboro;
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.Navbar > ul > li:hover {
+  background-color: #833ae0;
+  color: white;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}

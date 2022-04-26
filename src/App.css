@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1 {
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(240, 240, 240);
+  width: 98%;
+  border-radius: 5px;
+  margin-left: 1%;
+  padding: 7px;
+  margin-bottom: 10vw;
+}
+
+.card {
+  background-color: rgb(219, 218, 218);
+  margin: 2%;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10vw 20vw 10vw 20vw;
+}
+
+.card:hover {
+  background-color: rgb(207, 207, 207);
+}
